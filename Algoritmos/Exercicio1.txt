@@ -1,0 +1,27 @@
+Algoritimos
+
+Var
+num1,resto: inteiro 
+
+
+Inicio
+escreva ("Digite um numero: ")
+Leia num1
+se (num1 > 0) entao
+  escreva ("O numero é maior que zero")
+senao 
+  se (num1 < 0) entao
+    escreva ("O numero é menor que zero")
+  senao
+    escreva ("O numero é igual a zero")
+  fimse
+fimse
+resto <- num1 mod 2
+se (resto = 0) entao
+  escreva ("Par")
+senao
+  escreva ("Impar")
+fimse 
+
+ 
+Fim algoritimo

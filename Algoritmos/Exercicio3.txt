@@ -1,0 +1,18 @@
+Algoritimos
+Var
+num,fatorial:inteiro
+
+Inicio
+fatorial <- 1
+escreva ("Escreva um numero: ")
+leia num
+se (num > 0) entao 
+  enquanto (num > 1 ) faca
+    fatorial <- fatorial * num
+    num <- num - 1
+  
+  fimenquanto  
+  
+fimse
+escreva ("O resultado é ", fatorial)
+Fim algoritimo

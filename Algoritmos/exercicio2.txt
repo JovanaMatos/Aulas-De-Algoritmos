@@ -1,0 +1,17 @@
+Algoritimos
+
+Var
+soma,numero: inteiro
+
+Inicio
+soma <- 0
+escreva ("escreva um numero: ")
+leia numero
+enquanto (numero != 0) faça
+  soma <- soma + numero
+  escreva ("escreva um numero: ")
+  leia numero
+fimenquanto
+escreva ("A soma é ", soma)
+ 
+Fim algoritimo
